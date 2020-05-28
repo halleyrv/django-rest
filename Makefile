@@ -48,6 +48,7 @@ restart: ## Restart all stopped and running containers
 ### Project commands ###
 
 install:  ## Install all package from Pepfile
+	make build
 	cd container/ && $(PEVINSTALL)
 
 
